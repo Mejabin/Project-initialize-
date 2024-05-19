@@ -13,7 +13,6 @@
     "prepare": "husky",
     "prettier": "prettier --check src/**/*.js",
     "prettier:fix": "prettier --write ."
-   
   },
   "keywords": [],
   "author": "",
@@ -32,12 +31,13 @@
     "typescript": "^5.4.5"
   },
   "lint-staged": {
-    "src/**/*.ts":"yarn lint-prettier"
+    "src/**/*.ts": "yarn lint-prettier"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.3.4"
+    "mongoose": "^8.3.4",
+    "winston": "^3.13.0"
   }
 }
