@@ -1,10 +1,11 @@
 import mongoose from 'mongoose';
 import app from './app';
 import config from './config';
-import { logger, errorlogger } from './Shared/logger';
+import { logger, errorLogger } from './Shared/logger';
 
-async function main() {
+async function bootstrap() {
   try {
+    logger.info('Connecting to the database...');
     await mongoose.connect(config.database_url as string);
     logger.info('Database is connected successfully');
 
@@ -12,8 +13,11 @@ async function main() {
       logger.info(`Application listening on port ${config.port}`);
     });
   } catch (err) {
-    errorlogger.error('Failed to connect to the database', err);
+    errorLogger.error('Failed to connect to the database', { message: (err as Error).message, stack: (err as Error).stack });
+    process.exit(1); 
   }
 }
 
-export default main;
+bootstrap();
+
+export default bootstrap;
