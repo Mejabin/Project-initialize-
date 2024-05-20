@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Office Docs\\sms-api\\sms-api\\logs\\winston\\error\\.17c132e38619cfc284956e741851367c6f949e85-audit.json",
+    "files": [
+        {
+            "date": 1716199400136,
+            "name": "D:\\Office Docs\\sms-api\\sms-api\\logs\\winston\\error\\application-2024-05-20-16-succe.log",
+            "hash": "44bdffd31e48fedcb2e4a520b989182ced9375d590d63ad815fdd7f7fd9ee3a6"
+        }
+    ],
+    "hashType": "sha256"
+}

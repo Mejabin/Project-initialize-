@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": ".f975468f7ea79cd30e8dbf235e9cb7afecd114ba-audit.json",
+    "files": [
+        {
+            "date": 1716197217367,
+            "name": "application-2024-05-20-15-errpr.log",
+            "hash": "8c90e4aedd7fb69bf67707cbf43fe8640a549e1f95da584e9febf1373ae33f71"
+        }
+    ],
+    "hashType": "sha256"
+}
