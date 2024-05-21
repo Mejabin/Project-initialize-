@@ -3,7 +3,7 @@
 import { IUser } from './users.interface'
 
 import config from '../../../config/index'
-import { User } from './user.modle'
+import { User } from './user.Model'
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
   //auto generated incremnetal

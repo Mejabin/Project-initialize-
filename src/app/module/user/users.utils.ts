@@ -1,4 +1,4 @@
-import { User } from "./user.modle"
+import { User } from "./user.Model"
 export const findLastUserId =async () =>{
     //auto generated incremental id
     const lastUser =await User.findOne({},{id:1,_id: 0}).sort({

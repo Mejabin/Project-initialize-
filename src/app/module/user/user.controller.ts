@@ -1,7 +1,7 @@
-import { NextFunction, Request, Response } from 'express';
+import {  RequestHandler } from 'express';
 import userService from './user.service';
 
-const createUser = async (req: Request, res: Response, next: NextFunction) => {
+const createUser :RequestHandler = async (req, res ,next) => {
   try {
     const { User } = req.body;
     const result = await userService.createUser(User);
@@ -11,7 +11,7 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
       data: result,
     });
   } catch (err) {
-    // Pass the error to the global error handler
+   
     next(err);
   }
 };
