@@ -19,6 +19,11 @@
             "date": 1716202915032,
             "name": "D:\\Office Docs\\sms-api\\sms-api\\logs\\winston\\successes\\application-2024-05-20-17-success.log",
             "hash": "c53e7a2810692c1300e008c20318b063bd46e7ed1f5412177a50e9e6f9d80c5b"
+        },
+        {
+            "date": 1716440575109,
+            "name": "D:\\Office Docs\\sms-api\\sms-api\\logs\\winston\\successes\\application-2024-05-23-11-success.log",
+            "hash": "34a50fb35969ca1b05a758a02b786c795b07852c7512e43d7b8666c163d687bb"
         }
     ],
     "hashType": "sha256"
